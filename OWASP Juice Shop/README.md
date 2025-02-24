@@ -5,7 +5,7 @@ This project is a great resource for who looking to gain hands-on experience wit
 ### Catagory of vulnerabilities
 ![](https://github.com/chrispham-cyber/Cybersecurity-Practice-Projects/blob/main/OWASP%20Juice%20Shop/OWASP-categories.png)
 
-## Link: [OWASP Juice Shop](https://juice-shop-production-fbc0.up.railway.app/#/)
+## Link: [OWASP Juice Shop](https://juice-shop-production-fbc0.up.railway.app/#/score-board)
 
 ### Tasks
 | Status | Name                          | Description                                                                                       | Solution                |
