@@ -59,21 +59,21 @@ This project is a great resource for who looking to gain hands-on experience wit
 | :x:      | Legacy Typosquatting          | Inform the shop about a typosquatting trick it has been a victim of at least in v6.2.0-SNAPSHOT. (Mention the exact name of the culprit) |
 | :x:      | Local File Read               | Gain read access to an arbitrary local file on the web server.                                   |
 | :white_check_mark:      | Login Admin                   | Log in with the administrator’s user account.                                                    | `' OR '1'='1'-- `|
-| :x:      | Login Amy                     | Log in with Amy’s original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note") |
-| :x:      | Login Bender                  | Log in with Bender’s user account.                                                                |
+| :white_check_mark:      | Login Amy                     | Log in with Amy’s original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note") | After reading [Hint](https://pwning.owasp-juice.shop/companion-guide/latest/part2/sensitive-data-exposure.html#_log_in_with_amys_original_user_credentials), we know that her husband's name is `Kif` and search `One Important Final Note` we will see `Password Pading`. Copy the dot with her husband's name, and replace vowel with 1 |
+| :white_check_mark:      | Login Bender                  | Log in with Bender’s user account.                                                                | `email'--` |
 | :x:      | Login Bjoern                  | Log in with Bjoern’s Gmail account without previously changing his password, applying SQL Injection, or hacking his Google account. |
-| :x:      | Login Jim                     | Log in with Jim’s user account.                                                                    |
-| :x:      | Login MC SafeSearch           | Log in with MC SafeSearch’s original user credentials without applying SQL Injection or any other bypass. |
+| :white_check_mark:      | Login Jim                     | Log in with Jim’s user account.                                                                    | `email'--` |
+| :white_check_mark:      | Login MC SafeSearch           | Log in with MC SafeSearch’s original user credentials without applying SQL Injection or any other bypass. | After listening to his song, we know that his password is `Mr. Noodles` and change some o to 0 |
 | :x:      | Login Support Team            | Log in with the support team’s original user credentials without applying SQL Injection or any other bypass. |
 | :x:      | Manipulate Basket             | Put an additional product into another user’s shopping basket.                                    |
 | :white_check_mark:      | Mass Dispel                   | Close multiple "Challenge solved"-notifications in one go.                                        | Press `Shift` and click `X` button |
-| :x:      | Meta Geo Stalking             | Determine the answer to John’s security question by looking at an upload of him to the Photo Wall and use it to reset his password via the Forgot Password mechanism. |
+| :white_check_mark:      | Meta Geo Stalking             | Determine the answer to John’s security question by looking at an upload of him to the Photo Wall and use it to reset his password via the Forgot Password mechanism. | Download the `Hiking` image and use `Exiftool` to get `GPS Position` |
 | :x:      | Mint the Honey Pot            | Mint the Honey Pot NFT by gathering BEEs from the bee haven.                                     |
 | :x:      | Misplaced Signature File      | Access a misplaced SIEM signature file.                                                           |
 | :white_check_mark:      | Missing Encoding              | Retrieve the photo of Bjoern’s cat in "melee combat-mode".                                       | Using `Cyber chef` we will see the URL encoding of the img link or just replace `#` with `#23`
 | :x:      | Multiple Likes                | Like any review at least three times as the same user.                                           |
 | :x:      | Nested Easter Egg             | Apply some advanced cryptanalysis to find the real easter egg.                                    |
-| :x:      | NFT Takeover                  | Take over the wallet containing our official Soul Bound Token (NFT).                              |
+| :white_check_mark:      | NFT Takeover                  | Take over the wallet containing our official Soul Bound Token (NFT).                              | Visit `About Us` and scroll down `Comment` section, we will notice 1 user with comment `NFT`, visit [Bip39](https://iancoleman.io/bip39/) to get your private key |
 | :x:      | NoSQL DoS                     | Let the server sleep for some time. (It has done more than enough hard work for you)              |
 | :x:      | NoSQL Exfiltration            | All your orders are belong to us! Even the ones which don’t!                                     |
 | :x:      | NoSQL Manipulation            | Update multiple product reviews at the same time.                                                |
