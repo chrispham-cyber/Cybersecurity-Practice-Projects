@@ -4,7 +4,7 @@
 # Task 2: How many TCP ports are open on the remote host?
 1
 
-#Task 3: What is the protocol version used by rsync on the remote machine?
+# Task 3: What is the protocol version used by rsync on the remote machine?
 31
 
 # Task 4: What is the most common command name on Linux to interact with rsync?
